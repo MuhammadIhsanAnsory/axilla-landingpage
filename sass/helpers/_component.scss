@@ -1,0 +1,49 @@
+.text-grey{
+    color: $text-grey;
+}
+
+.btn-pink {
+    color: #fff;
+    background: -webkit-linear-gradient(to right, $pink, $pink-light);  
+    background: linear-gradient(to right, $pink, $pink-light); 
+    border-color: $pink-light;
+  }
+  
+  .btn-pink:hover {
+    color: #fff;
+    background: -webkit-linear-gradient(to right, $pink-dark, $pink);  
+    background: linear-gradient(to right, $pink-dark, $pink); 
+    border-color: $pink-light;
+  }
+  
+  .btn-check:focus + .btn-pink, .btn-pink:focus {
+    color: #fff;
+    background-color: #5c636a;
+    border-color: #565e64;
+    -webkit-box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+            box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+  }
+
+
+  
+.btn-pink-light {
+  color: #fff;
+  background: -webkit-linear-gradient(to left, $pink-light, $white);  
+  background: linear-gradient(to left, $pink-light, $white); 
+  border-color: $pink-light;
+  color: $pink-dark;
+}
+
+.btn-pink-light:hover {
+  color: #fff;
+  background: -webkit-linear-gradient(to left, $pink, $pink-light);  
+  background: linear-gradient(to left, $pink, $pink-light); 
+  border-color: $pink-light;
+  color: $white;
+}
+
+.btn-check:focus + .btn-pink-light, .btn-pink-light:focus {
+  color: #fff;
+  background-color: $pink-light;
+  border-color: $pink-light;
+}

@@ -1,0 +1,21 @@
+// boostrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+//typography
+@import "base/_typography.scss";
+
+// helper
+@import "helpers/_variable.scss";
+@import "helpers/_component.scss";
+
+// layouts
+@import "layouts/_header.scss";
+@import "layouts/_content.scss";
+@import "layouts/_footer.scss";
+
+// pages
+@import "pages/_home.scss";
+
+// packages
+@import "packages/_aos.scss"; 
